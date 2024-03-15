@@ -1,0 +1,30 @@
+{
+  "name": "postgresqlnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavinduJr/PostgreSQLNode.git"
+  },
+  "author": "Ravindu Jayasekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RavinduJr/PostgreSQLNode/issues"
+  },
+  "homepage": "https://github.com/RavinduJr/PostgreSQLNode#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3"
+  }
+}
